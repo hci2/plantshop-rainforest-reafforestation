@@ -1,6 +1,6 @@
 # PlantsshopRainforestReafforestation - Task
 
-![plantsshop-rainforest-reafforestation_icon](https://user-images.githubusercontent.com/19223435/134480181-143d7b0c-4de2-4c88-a63b-0dedabee7972.png)
+![plantsshop-rainforest-reafforestation_icon](https://user-images.githubusercontent.com/19223435/134488158-156207f0-b8d3-4d9a-8391-8e748204ed18.png)
 
 ## Description
 
