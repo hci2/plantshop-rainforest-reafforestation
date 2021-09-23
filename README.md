@@ -2,7 +2,7 @@
 
 ![plantsshop-rainforest-reafforestation_icon](https://user-images.githubusercontent.com/19223435/134480181-143d7b0c-4de2-4c88-a63b-0dedabee7972.png)
 
-# Description
+## Description
 
 This app is used for the utilization of a frontend web frameworks (React, Vue.js or Angular) 
 to implement a web app for sustainable plant sales with support for 
