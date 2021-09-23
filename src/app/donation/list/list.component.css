@@ -1,0 +1,39 @@
+.jumbotron{
+  background-color: rgba(113, 175, 0, 0.75);
+}
+
+h1, h2, h3, p {
+  text-align: center;
+}
+
+.selectedId {
+  color: #ffffff;
+  font-size: larger;
+}
+
+th, td {
+  padding: 20px;
+}
+
+.btn {
+  font-size: larger;
+}
+
+.tableElementDescription {
+  font-size: smaller;
+}
+
+.tableElementTitle {
+  font-weight: bold;
+}
+
+tr{
+  border-bottom: 1px solid black;
+}
+
+th, td {
+  border-right: 1px solid black;
+  /*text-align: center;*/
+  /*vertical-align: middle;*/
+}
+

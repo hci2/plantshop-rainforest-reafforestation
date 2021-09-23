@@ -1,0 +1,32 @@
+<div class="jumbotron">
+  <ng-template [ngIf]="currentOrder" [ngIfElse]="currentOrderEmpty">
+    <div>
+      <h1>Decide for your favorite donation type</h1>
+      <p>We are happy that you bought your plant(s) here. 30 % of your expenditures are spent as donation for the reafforestation of the
+        rainforest!</p>
+
+      <h2>Your order ids: </h2>
+      <div *ngFor="let order of orders">
+        <p>{{order.id}}</p>
+      </div>
+      <h2>Current order id:</h2>
+      <p class="selectedId">{{currentOrder.id}}</p>
+      <br>
+      <h3>Select one of the following donation types for what you want to spend your current donation´s share of your order:</h3>
+
+      <div class="btn-group" role="group" aria-label="Select donation">
+        <button type="button" class="btn btn-dark" [routerLink]="['../donation/map']" routerLinkActive="true">Map</button>
+        <button type="button" class="btn btn-dark" [routerLink]="['../donation/list']" routerLinkActive="true">List</button>
+        <button type="button" class="btn btn-dark" [routerLink]="['../donation/organisation']" routerLinkActive="true">Organisation</button>
+      </div>
+    </div>
+  </ng-template>
+
+  <ng-template #currentOrderEmpty>
+    <div  class="donationSuccess" >
+      <h1>Many thanks! The remaining rainforest will smile because of you! No orders are left. See you soon!</h1>
+      <img class="donationSuccessImg" src="https://www.edgeofexistence.org/wp-content/uploads/2014/03/loris_planted_trees_credited.jpg">
+    </div>
+  </ng-template>
+
+</div>

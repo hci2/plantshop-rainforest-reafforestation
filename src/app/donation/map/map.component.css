@@ -1,0 +1,42 @@
+.jumbotron{
+  background-color: rgba(113, 175, 0, 0.75);
+}
+
+h1, h2, h3, p, form, label, input, button, div {
+  text-align: center;
+}
+
+.selectedId {
+  color: #ffffff;
+  font-size: larger;
+}
+
+agm-map {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 90%;
+  height: 75vh;
+}
+
+/*ng-container > h3, button, p {*/
+/*  flex: 1 0 calc(33.3% - 5px);*/
+/*}*/
+
+.btn {
+  margin: 5vh;
+  font-size: larger;
+}
+
+.titleSelectedCountry {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.imgSelectedCountry {
+  margin-bottom: 5vh;
+}
+
+
+
+

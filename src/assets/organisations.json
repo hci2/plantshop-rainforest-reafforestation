@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "name": "WeForest",
+    "description": "We engage\ncorporates, organisations and scientists in collaborative action to advance forest landscape restoration.\n\nWe restore\nby developing a portfolio of scalable, quality forest landscape restoration projects.\n\nWe measure\nour projects progress and impact on Climate, People and Planet.",
+    "projects": [
+      "Brazil Atlantic Forest",
+      "Ethiopia Desa'a",
+      "Tanzania",
+      "Zambia Luanshya",
+      "India"
+    ],
+    "imgUrl": "https://www.weforest.org/sites/default/files/WF_Logo-500px-RGB_2_1.jpg",
+    "websiteUrl": "https://www.weforest.org/"
+  },
+  {
+    "id": 1,
+    "name": "Reforestation World",
+    "description": "REFORESTATION WORLD is a meeting place for reforestation organisations worldwide and their supporters. We want to connect those who see the problem of desertification and forest degradation, and are fighting for healthy ecosystems and sustainable human livelihoods.\n\nOur work has a clear focus on the UN Sustainable Development Goal 15: Life on Land but links to several others. Since forests are a irreplaceable basis for many essential services and values, a positive work on this goal can directly impact other important dimensions.\n\nWe work by raising awareness about forest restoration efforts worldwide. As such, we present organisations engaged with local communities to restore forest ecosystems and promote sustainable land management and livelihood approaches. Through our website and public activities, we want to encourage potential supporters to learn more about these efforts. In addition, we share relevant knowledge and perspectives between professionals and non-specialists with an interest in these topics.\n\nThe organisations presented here are added to our website for free, after our team reviews their work and overall transparency. We invite you to discover, share and support their work.",
+    "projects": [
+      "Forestever",
+      "Arboles y Futuro",
+      "Caped",
+      "Seeds trust"
+    ],
+    "imgUrl": "https://www.reforestationworld.org/themes/reforestationworld/logo.jpg",
+    "websiteUrl": "https://www.reforestationworld.org"
+  },
+  {
+    "id": 2,
+    "name": "The Berkeley Reafforestation Trust",
+    "description": "The Berkeley Reafforestation Trust is a charity dedicated to planting trees and protecting forests in damaged environments.\n\nOur primary focus is on parts of the world where forest destruction is threatening the survival of local communities. We are also active here in the UK in promoting environmental education and an understanding of the importance of trees to us all.\n\nThe increasing threat to our native trees from new and deadly diseases is a serious national concern. Elm, chestnut, oak and most recently ash....the list goes on. The Great British Elm Experiment is one of our projects active in this field.",
+    "projects": [
+      "Reforestation in the Himalayas",
+      "Great British Elm Experiment – working with schools and communities",
+      "Forest School – for children to learn in natural outdoor settings",
+      "Planting trees that will enhance small farmer incomes"
+    ],
+    "imgUrl": "http://www.thebrt.org/images/brtlogo_300.gif",
+    "websiteUrl": "http://www.thebrt.org/"
+  },
+  {
+    "id": 3,
+    "name": "Eden Reforestation Projects",
+    "description": "Eden Reforestation Projects is a 501c3 non-profit whose mission is to provide fair wage employment to impoverished villagers as agents of global forest restoration. We hire the poorest of the poor to grow, plant, and guard to maturity native species forest on a massive scale. Our “employ to plant methodology” results in a multiplication of positive socio-economic and environment measures.",
+    "projects": [
+      "Nepal",
+      "Haiti",
+      "Kenya",
+      "Indonesia"
+    ],
+    "imgUrl": "https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/1528464_10152260881286461_5823892442760514953_n.png?_nc_cat=103&_nc_oc=AQno32BKjvqZaq0ozorUBfRaXfDJuvXYPtXMNNuxEE1x6ufQN9uNv6LlqO1bXmnnJTaeFWaYi6cvNpT47vOq_UQX&_nc_ht=scontent-vie1-1.xx&oh=f35d01c6f2ac44edc563e26e838aa7a6&oe=5E1B15B2",
+    "websiteUrl": "https://edenprojects.org/"
+  },
+  {
+    "id": 4,
+    "name": "Trillion Tree Campaign",
+    "description": "Plant with us! The Plant-for-the-Planet Web-App presents Tree Planting Organizations from all over the world. This way you can easily help to plant trees! No matter when or where you are, it's never been easier to save the climate and do something good. Because global reforestation binds at least a quarter of the annual man-made CO2 emissions and at the same time creates prosperity in the Global South.\nGlobal reforestation could capture 25% of global annual carbon emissions and create wealth in the global south.",
+    "projects": [
+      "Mandoki Soulmates",
+      "18. Stuttgarter Wissensforum"
+    ],
+    "imgUrl": "https://www.trilliontreecampaign.org/09b8800a3b92b35be282448be3728866.png",
+    "websiteUrl": "https://www.trilliontreecampaign.org/"
+  },
+  {
+    "id": 5,
+    "name": "One Tree Planted",
+    "description": "ONE TREE PLANTED IS A 501(C)(3) NON-PROFIT ORGANIZATION.\nAs an environmental charity, we're on a mission to make it simple for anyone to help the environment by planting trees!\n\nONE DOLLAR. ONE TREE.",
+    "projects": [
+      "North America",
+      "Latin America",
+      "Asia",
+      "Africa"
+    ],
+    "imgUrl": "https://cdn.shopify.com/s/files/1/0326/7189/files/OTP_H_BW_WHITE_RGB_06e3d9eb-937c-4c8c-889d-afdf495242db_410x.png?v=1521930143",
+    "websiteUrl": "https://onetreeplanted.org"
+  }
+]

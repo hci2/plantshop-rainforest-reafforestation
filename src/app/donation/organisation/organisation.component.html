@@ -1,0 +1,49 @@
+<div class="jumbotron">
+  <h1>Organisation</h1>
+
+  <h2>Current order id:</h2>
+  <p class="selectedId">{{currentOrder.id}}</p>
+
+  <h3>Select one organisation of the list for what you want to spend your current share of your order´s donation:</h3>
+
+  <br>
+
+  <!--  <ul>-->
+  <!--    <div class="organisation" *ngFor="let organisation of organisations">-->
+  <!--      <p>{{organisation.name}}</p>-->
+  <!--      <img src="{{organisation.imgUrl}}">-->
+  <!--      <p>{{organisation.description}}</p>-->
+  <!--      <p>{{organisation.continents}}</p>-->
+  <!--      <a href="{{organisation.websiteUrl}}" target="_blank">Link</a>-->
+  <!--      <br>-->
+  <!--      <button (click)="onSelectDonation()">Donate</button>-->
+  <!--    </div>-->
+  <!--  </ul>-->
+
+  <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="flex-start">
+    <div class="organisation" *ngFor="let organisation of organisations">
+      <ng-container>
+        <h3 id="name">{{organisation.name}}</h3>
+        <img src="{{organisation.imgUrl}}">
+      </ng-container>
+      <ng-container>
+        <div class="linkButton">
+          <a href="{{organisation.websiteUrl}}" target="_blank">Link</a>
+        </div>
+        <p>{{organisation.description}}</p>
+        <p>{{organisation.continents}}</p>
+      </ng-container>
+      <div class="linkButton">
+        <button class="btn btn-dark" (click)="onSelectDonation()">Donate</button>
+      </div>
+      <!--      <ng-container *ngFor="let organisation of organisations">-->
+      <!--        <p>{{organisation.name}}</p>-->
+      <!--        <img src="{{organisation.imgUrl}}">-->
+      <!--        <p>{{organisation.description}}</p>-->
+      <!--        <p>{{organisation.continents}}</p>-->
+      <!--        <a href="{{organisation.websiteUrl}}" target="_blank">Link</a>-->
+      <!--        <button class="btn btn-dark" (click)="onSelectDonation()">Donate</button>-->
+      <!--      </ng-container>-->
+    </div>
+  </div>
+</div>

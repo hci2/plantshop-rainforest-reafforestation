@@ -1,0 +1,36 @@
+<div class="jumbotron">
+  <h1>List</h1>
+
+  <h2>Current order id:</h2>
+  <p class="selectedId">{{currentOrder.id}}</p>
+
+  <h3>Select one country of the list for what you want to spend your current share of your order´s donation:</h3>
+
+  <table>
+    <tr>
+      <th *ngFor="let colHeader of columnsHeader">
+        {{colHeader}}
+      </th>
+    </tr>
+    <tr class="tableRow" *ngFor="let country of countries">
+      <td>
+        <button class="btn btn-dark" (click)="onSelectDonation()">Donate</button>
+      </td>
+      <td *ngFor="let colKey of columnsKey">
+<!--                <img *ngIf="colKey === 'flagUrl' || colKey === 'imgUrl'; else title" src="{{country[colKey]}}">-->
+<!--                <ng-template #title *ngIf="colKey==='label'; else description">-->
+<!--                  <div class="tableElementTitle">{{country[colKey]}}</div>-->
+<!--                </ng-template>-->
+<!--                <ng-template #description>-->
+<!--                  <small class="tableElementDescription">{{country[colKey]}}</small>-->
+<!--                </ng-template>-->
+
+        <img *ngIf="colKey === 'flagUrl' || colKey === 'imgUrl'" src="{{country[colKey]}}">
+        <div *ngIf="colKey==='label'" class="tableElementTitle">{{country[colKey]}}</div>
+        <small *ngIf="colKey==='description'" class="tableElementDescription">{{country[colKey]}}</small>
+      </td>
+    </tr>
+  </table>
+
+</div>
+

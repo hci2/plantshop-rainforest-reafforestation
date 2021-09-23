@@ -1,0 +1,17 @@
+.jumbotron {
+  background-color: rgba(113, 175, 0, 0.75);
+  height: 100vh;
+}
+
+h1, h2, p, form, label, input, button, div {
+  text-align: center;
+}
+
+div:not(.jumbotron) {
+  margin: 1vh;
+}
+
+.btn {
+  margin-top: 10vh;
+  font-size: larger;
+}

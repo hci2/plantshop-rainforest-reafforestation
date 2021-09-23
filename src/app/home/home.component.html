@@ -1,0 +1,29 @@
+<div class="jumbotron">
+  <h1>Welcome home, happy to see you!<br> The rainforest is smiling for you!</h1>
+  <p>You can either enter your order id (additionally) or continue your purchasing process. You can find the order id on the etiquette on the plant.</p>
+  <h2>Your order ids: </h2>
+  <div *ngIf="orders.length <1">
+    <p>-</p>
+  </div>
+  <div *ngFor="let order of orders">
+    <p>{{order.id}}</p>
+  </div>
+
+  <h2>Redeem order id: </h2>
+  <form [formGroup]="checkoutOrderForm" (ngSubmit)="onSubmitRedeemedOrder(checkoutOrderForm.value)">
+    <div class="form-group">
+      <label for="oder-id">
+        Order Id:
+      </label>
+      <input id="oder-id" class="form-control" type="text" formControlName="id" placeholder="order id on etiquette of plant">
+    </div>
+    <button class="btn-dark" type="submit">Redeem order id</button>
+  </form>
+
+  <div class="overview-buttons">
+    <button class="btn btn-dark" (click)="routeToOverview()">
+      Continue to donation
+    </button>
+  </div>
+</div>
+

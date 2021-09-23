@@ -1,0 +1,50 @@
+<div class="jumbotron">
+  <h1>Map</h1>
+
+  <h2>Current order id:</h2>
+  <p class="selectedId">{{currentOrder.id}}</p>
+
+  <h3>Select one country for what you want to spend your current share of your order´s donation:</h3>
+
+  <br>
+
+  <agm-map [latitude]="initialLat" [longitude]="initialLng" [zoom]="initialZoom">
+    TODO: *ngFor to create agm-marker for the different possible donation countries
+    <div *ngFor="let country of countries">
+      <agm-marker [iconUrl]="defaultIconUrl" [latitude]="country.lat" [longitude]="country.lng" [label]="country.label"
+                  (markerClick)="onSelectMarker(country.id)">
+      </agm-marker>
+    </div>
+  </agm-map>
+
+  <div id="anchorSelCountry"></div>
+  <div *ngIf="selectedCountry">
+    <h3 class="titleSelectedCountry">{{selectedCountry.label}}</h3>
+    <img src="{{selectedCountry.flagUrl}}">
+    <div>
+      <button class="btn btn-dark" (click)="onSelectDonation()">
+        Donate
+      </button>
+    </div>
+    <p>{{selectedCountry.description}}</p>
+    <img class="imgSelectedCountry" src="{{selectedCountry.imgUrl}}">
+  </div>
+
+
+<!--  <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="flex-start" *ngIf="selectedCountry">-->
+<!--    <ng-container class="selCountry">-->
+<!--      <h3>{{selectedCountry.label}}</h3>-->
+<!--      <img src="{{selectedCountry.flagUrl}}">-->
+<!--      <button class="btn btn-dark" (click)="onSelectDonation()">-->
+<!--        Donate-->
+<!--      </button>-->
+<!--    </ng-container>-->
+<!--    <ng-container class="selCountry">-->
+<!--      <p>{{selectedCountry.description}}</p>-->
+<!--    </ng-container>-->
+<!--    <ng-container class="selCountry">-->
+<!--      <img src="{{selectedCountry.imgUrl}}">-->
+<!--    </ng-container>-->
+<!--  </div>-->
+
+</div>

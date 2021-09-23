@@ -1,0 +1,25 @@
+.jumbotron{
+  background-color: rgba(113, 175, 0, 0.75);
+  height: 100vh;
+}
+
+h1, h2, h3, p, form, label, input, button, div {
+  text-align: center;
+}
+
+.selectedId {
+  color: #ffffff;
+  font-size: larger;
+}
+
+.btn-group {
+  margin-top: 5vh;
+}
+
+.donationSuccess{
+  margin-top: 5vh;
+  text-align: center;
+}
+.donationSuccessImg{
+  margin-top: 2vh;
+}
