@@ -65,7 +65,7 @@ const routes: Routes =
       positionClass: 'toast-top-center'
     }),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyA0HGHUrjdLwZdcm0zhFggq6HbkmBPWgXQ'
+      apiKey: 'TODO:INSERT_API_KEY'
       }
     ),
   ],
