@@ -11,8 +11,8 @@ import {Country} from "../model/country";
 // const querystring = require('querystring');
 // const request = require('request-promise');
 
-const SHOPIFY_API_KEY="826207538b15a14c594a7f4d05063d2b";
-const SHOPIFY_API_SECRET="48cbf9fe3badee1600f83256bce20092";
+const SHOPIFY_API_KEY="TODO:INSERT_SHOPIFY_API_KEY";
+const SHOPIFY_API_SECRET="TODO:INSERT_SHOPIFY_API_SECRET";
 const scopes = 'read_products';
 const forwardingAddress = "https://73f7d6a9.ngrok.io"; // Replace this with your HTTP
 
